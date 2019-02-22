@@ -16,16 +16,23 @@
         <h1>栾美华</h1>
         <h2>河北软件职业技术学院学生</h2>
     </div>
-    <a href="https://u.wechat.com/MNdYwXr0qzR5QioILy2Lp_Y">
-        <div id="weixin">
-            添加微信
-        </div>
-    </a>
+    <div id="weixin" onclick="onclick">
+        添加微信
+    </div>
+    <div id="weixin_img">
+            <img src="./mmqrcode1550812127870.png" alt="">
+            长按添加到微信
+    </div>
     <a href=".luanmeihua.vcf" download="栾美华">
         <div id="lianxiran">
             保存联系人
         </div>
     </a>
+    <script>
+    function onclick(){
+        document.getElementById('weixin_img').style.display= 'block';
+    }
+    </script>
 </body>
 
 </html>
